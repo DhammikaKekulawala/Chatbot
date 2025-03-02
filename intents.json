@@ -1,0 +1,58 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! How can I help you?", "Greetings! How can I support you?"],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Talk to you soon"],
+      "responses": ["Goodbye! Have a great day!", "See you later! Take care!", "Bye! Come back if you have more questions."],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "Thanks a lot", "I appreciate it"],
+      "responses": ["You're welcome!", "No problem!", "My pleasure!", "Happy to help!"],
+      "context": [""]
+    },
+    {
+      "tag": "course_advice",
+      "patterns": ["What courses should I take?", "Suggest some courses", "Which courses are best for me?", "Course recommendations"],
+      "responses": ["It depends on your interests and career goals. Can you tell me more about what you're interested in?", "Let's discuss your interests and career plans to find the best courses for you.", "I can help you choose courses based on your academic and career goals. What are you interested in?"],
+      "context": [""]
+    },
+    {
+      "tag": "career_guidance",
+      "patterns": ["I need career advice", "Career guidance", "Help with career choices", "Career counseling"],
+      "responses": ["I'd be happy to help with your career choices. What fields are you interested in?", "Let's explore your skills and interests to find the best career path for you.", "Career counseling is a great way to find the right path. Tell me about your interests and goals."],
+      "context": [""]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": ["I feel stressed", "I'm anxious about exams", "Mental health support", "Dealing with stress"],
+      "responses": ["It's important to take care of your mental health. Have you tried any relaxation techniques?", "Talking to a counselor can help manage stress. Would you like to schedule an appointment?", "Stress is common, especially during exams. Let's find some ways to help you relax and stay focused."],
+      "context": [""]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": ["Are there any scholarships available?", "How can I apply for scholarships?", "Scholarship opportunities", "Financial aid options"],
+      "responses": ["There are many scholarships available. Let's check which ones you might be eligible for.", "You can apply for scholarships through our financial aid office or online. Would you like more details?", "Scholarship opportunities vary. I can help you find and apply for the ones that suit you best."],
+      "context": [""]
+    },
+    {
+      "tag": "exam_preparation",
+      "patterns": ["How do I prepare for exams?", "Exam preparation tips", "Studying for exams", "Help with exam prep"],
+      "responses": ["Effective exam preparation involves good study habits and time management. Let's create a study plan for you.", "I can share some tips and resources to help you prepare for exams. What subjects are you studying?", "Preparing for exams can be stressful, but with the right approach, you can succeed. Let's discuss some strategies."],
+      "context": [""]
+    },
+    {
+      "tag": "tutoring_services",
+      "patterns": ["Are there any tutoring services?", "Help with my studies", "Tutoring support", "Academic assistance"],
+      "responses": ["Yes, we offer tutoring services in various subjects. Would you like to know more?", "Our tutoring services can help you improve your understanding and grades. Which subjects do you need help with?", "You can sign up for tutoring sessions through our academic support center. Let's find the right tutor for you."],
+      "context": [""]
+    }
+  ]
+}
